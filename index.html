@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<title>Countdown Timer</title>
+		<link
+			href="https://fonts.googleapis.com/css?family=Inconsolata"
+			rel="stylesheet"
+			type="text/css"
+		/>
+		<link rel="stylesheet" href="app.css" />
+		<!-- <link rel="icon" href="https://fav.farm/🔥" /> -->
+		<title>Countdown Timer</title>
+		<link rel="icon" href="Guild_Logo_Vector_png.ico" />
+	</head>
+	<body>
+		<div class="timer">
+			<div class="timer__controls">
+				<button data-time="900" class="timer__button">
+					15 Minutes
+				</button>
+				<button data-time="1800" class="timer__button">
+					30 Minutes
+				</button>
+				<button data-time="2700" class="timer__button">
+					45 Minutes
+				</button>
+				<button data-time="3000" class="timer__button">
+					50 Minutes
+				</button>
+				<button data-time="3300" class="timer__button">
+					55 Minutes
+				</button>
+				<form name="customForm" id="custom">
+					<input
+						type="text"
+						name="minutes"
+						placeholder="Enter Minutes"
+					/>
+				</form>
+			</div>
+			<div class="display">
+				<h1 class="display__time-left"></h1>
+				<p class="display__end-time"></p>
+			</div>
+		</div>
+		<audio
+			id="myAudio"
+			src="CDTimer/boxing-bell-1-232450.mp3"
+			preload="auto"
+		></audio>
+
+		<script src="script.js"></script>
+	</body>
+</html>
