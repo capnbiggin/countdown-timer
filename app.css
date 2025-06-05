@@ -1,8 +1,8 @@
 html {
 	box-sizing: border-box;
 	font-size: 10px;
-	background: #8e24aa;
-	background: linear-gradient(45deg, #42a5f5 0%, #478ed1 50%, #0d47a1 100%);
+	/* background: #8e24aa; */
+	/* background: linear-gradient(45deg, #42a5f5 0%, #478ed1 50%, #0d47a1 100%); */
 }
 
 *,
@@ -17,8 +17,8 @@ body {
 	text-align: center;
 	font-family: "Inconsolata", monospace;
 	background-color: #478ed1;
-	/* background-image: url(image.webp); */
-	/* background-repeat: no-repeat; */
+	background-image: url(Guild_Logo_Vector_png.png);
+	background-repeat: no-repeat;
 	background-size: 60vh;
 	background-position-y: 100%;
 }

@@ -19,11 +19,11 @@ function timer(seconds) {
 			document.body.style.backgroundColor = "#478ed1";
 		} else if (secondsLeft <= 600 && secondsLeft > 0) {
 			document.body.style.backgroundColor = "orange";
-		} else if (secondsLeft < 0) {
+		} else if (secondsLeft <= 0) {
 			const audio = new Audio("boxing-bell-1-232450.mp3");
 			document.body.style.backgroundColor = "red";
-			clearInterval(countdown);
 			audio.play();
+			clearInterval(countdown);
 			return;
 		}
 		// display it
@@ -53,6 +53,7 @@ function displayEndTime(timestamp) {
 
 function startTimer() {
 	const seconds = parseInt(this.dataset.time);
+	document.body.style.backgroundColor = "#478ed1";
 	timer(seconds);
 }
 
