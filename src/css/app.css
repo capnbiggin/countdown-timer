@@ -17,7 +17,7 @@ body {
 	text-align: center;
 	font-family: "Inconsolata", monospace;
 	background-color: #478ed1;
-	background-image: url(Guild_Logo_Vector_png.png);
+	background-image: url(/assets/Guild_Logo_Vector_png.png);
 	background-repeat: no-repeat;
 	background-size: 60vh;
 	background-position-y: 100%;
