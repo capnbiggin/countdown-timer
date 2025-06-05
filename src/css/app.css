@@ -55,7 +55,9 @@ body {
 .timer__controls input {
 	flex: 1;
 	border: 0;
-	padding: 2rem;
+	padding: 1rem;
+	border-bottom: 3px solid rgba(0, 0, 0, 0.2);
+	border-right: 1px solid rgba(0, 0, 0, 0.2);
 }
 
 .timer__button {
@@ -63,7 +65,7 @@ body {
 	border: 0;
 	cursor: pointer;
 	color: white;
-	font-size: 2rem;
+	font-size: 2.5rem;
 	text-transform: uppercase;
 	background: rgba(0, 0, 0, 0.1);
 	border-bottom: 3px solid rgba(0, 0, 0, 0.2);
